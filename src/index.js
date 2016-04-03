@@ -67,9 +67,9 @@ export default function (_options) {
 			data: source,
 
 			importer: (arg, prev, done) => {
-				// Resolve the import `arg`, load the contents (either internally or from
-				// a load path), and call the callback with {file, contents} or an error.
-				// NB contents must be a string.
+				// resolve the import `arg`, load the contents (either internally or from
+				// a load path), and call the callback with {file, contents} or an error
+				// NB contents must be a string
 
 				(async () => {
 					try {
