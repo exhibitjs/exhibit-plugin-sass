@@ -34,7 +34,7 @@
   "engines": {
     "node": ">=0.12"
   },
-  "main": "dist/lib/index.js",
+  "main": "dist/index.js",
   "repository": "exhibitjs/exhibit-plugin-sass",
   "scripts": {
     "build": "del dist && babel src --out-dir dist --source-maps",
