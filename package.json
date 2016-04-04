@@ -50,6 +50,7 @@
   "files": [
     "dist"
   ],
+  "license": "MIT",
   "main": "dist/index.js",
   "peerDependencies": {
     "exhibit": "^0.8.3"
