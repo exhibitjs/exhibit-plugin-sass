@@ -14,7 +14,6 @@
     "babel-runtime": "^6.6.1",
     "bluebird": "^3.3.4",
     "convert-source-map": "^1.2.0",
-    "exhibit": "^0.8.2",
     "lodash": "^4.7.0",
     "node-sass": "^3.4.2",
     "sander": "^0.4.0",
@@ -30,7 +29,12 @@
     "eslint": "^2.6.0",
     "eslint-config-airbnb": "^6.2.0",
     "eslint-plugin-babel": "^3.1.0",
-    "test-exhibit-plugin": "^0.1.0"
+    "exhibit": "^0.8.3",
+    "test-exhibit-plugin": "^0.1.1",
+    "exhibit": "^0.8.3"
+  },
+  "engines": {
+    "node": ">=0.12"
   },
   "eslintConfig": {
     "extends": "airbnb/base",
@@ -43,13 +47,13 @@
       ]
     }
   },
-  "engines": {
-    "node": ">=0.12"
-  },
   "files": [
     "dist"
   ],
   "main": "dist/index.js",
+  "peerDependencies": {
+    "exhibit": "^0.8.3"
+  },
   "repository": "exhibitjs/exhibit-plugin-sass",
   "scripts": {
     "build": "del dist && babel src --out-dir dist --source-maps",
