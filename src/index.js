@@ -27,8 +27,8 @@ export default function (_options) {
 	if (!options.root) {
 		options.root = (
 			process.platform === 'win32'
-				? 'X:\\__exhibit-babel-root'
-				: '/__exhibit-babel-root'
+				? 'X:\\__exhibit-root'
+				: '/__exhibit-root'
 		);
 	}
 
@@ -77,10 +77,10 @@ export default function (_options) {
 
 						// establish which file the @import statement was encountered in
 						const importer = (prev === 'stdin' ? absoluteEntryFile : prev);
-						console.assert(
-							path.isAbsolute(importer),
-							'importing file should be absolute at this point'
-						);
+						// console.assert(
+						// 	path.isAbsolute(importer),
+						// 	'importing file should be absolute at this point'
+						// );
 
 						// establish where we're looking...
 						const importerDirname = path.dirname(importer);
