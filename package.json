@@ -46,6 +46,9 @@
   "engines": {
     "node": ">=0.12"
   },
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "repository": "exhibitjs/exhibit-plugin-sass",
   "scripts": {
