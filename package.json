@@ -16,7 +16,7 @@
     "convert-source-map": "^1.2.0",
     "lodash": "^4.7.0",
     "node-sass": "^3.4.2",
-    "sander": "^0.4.0",
+    "sander": "^0.5.0",
     "subdir": "0.0.3"
   },
   "devDependencies": {
@@ -30,8 +30,7 @@
     "eslint-config-airbnb": "^6.2.0",
     "eslint-plugin-babel": "^3.1.0",
     "exhibit": "^0.8.3",
-    "test-exhibit-plugin": "^0.1.2",
-    "exhibit": "^0.8.3"
+    "test-exhibit-plugin": "^0.1.2"
   },
   "engines": {
     "node": ">=0.12"
