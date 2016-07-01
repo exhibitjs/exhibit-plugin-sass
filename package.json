@@ -29,9 +29,8 @@
     "eslint": "^2.6.0",
     "eslint-config-airbnb": "^6.2.0",
     "eslint-plugin-babel": "^3.1.0",
-    "exhibit": "^0.8.3",
-    "test-exhibit-plugin": "^0.1.2",
-    "exhibit": "^0.8.3"
+    "exhibit": "^0.8.5",
+    "test-exhibit-plugin": "^0.1.2"
   },
   "engines": {
     "node": ">=0.12"
