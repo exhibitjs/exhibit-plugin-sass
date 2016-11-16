@@ -15,7 +15,7 @@
     "bluebird": "^3.3.4",
     "convert-source-map": "^1.2.0",
     "lodash": "^4.7.0",
-    "node-sass": "^3.4.2",
+    "node-sass": "^3.13.0",
     "sander": "^0.4.0",
     "subdir": "0.0.3"
   },
